@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android_navigation">
 
-<!--API S version rule = android:dataExtractionRules="@xml/data_extraction_rules"-->
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_rules"
@@ -18,7 +17,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
